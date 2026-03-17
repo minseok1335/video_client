@@ -1,6 +1,6 @@
 [submodule "360eavp"]
 	path = 360eavp
-	url = https://github.com/Ahnyeohn/360EAVP.git
+	url = https://github.com/minseok1335/360EAVP.git
 [submodule "dash.js"]
 	path = dash.js
-	url = https://github.com/Ahnyeohn/dash.js.git
+	url = https://github.com/minseok1335/dash.js.git
