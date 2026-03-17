@@ -1,29 +1,29 @@
 {
   "players": {
-    "dash": { "src": "https://10.20.13.157:8087/" },
-    "v360": { "src": "https://10.20.13.157:8080/#/player" },
-    "hls":  { "src": "https://10.20.13.157:8085" } 
+    "dash": { "src": "https://n2sl-h3-test.duckdns.org/video/dash_player/index.html" },
+    "v360": { "src": "https://n2sl-h3-test.duckdns.org/video/v360/#/player" },
+    "hls":  { "src": "https://n2sl-h3-test.duckdns.org/video/hls/" } 
   },
   "experiments": [
     {
       "name": "DASH-VOD-1",
       "playerType": "dash",
       "playerSrc": "SRC_DASH",
-      "videoUrl": "https://10.20.13.157:8089/vod/stream.mpd",
+      "videoUrl": "https://n2sl-h3-test.duckdns.org/video/vod/stream.mpd",
       "playSeconds": 10
     },
     {
       "name": "360-VOD-1",
       "playerType": "v360",
       "playerSrc": "SRC_360",
-      "videoUrl": "https://10.20.13.157:8080/default.json",
+      "videoUrl": "https://n2sl-h3-test.duckdns.org/video/v360/default.json",
       "playSeconds": 10
     },
     {
       "name": "HLS-LIVE-1",
       "playerType": "hls",
       "playerSrc": "SRC_HLS",
-      "videoUrl": "https://10.20.13.157:3334/app/stream/llhls.m3u8",
+      "videoUrl": "https://n2sl-h3-test.duckdns.org/video/hls/app/stream/llhls.m3u8",
       "playSeconds": 10
     }
   ]
