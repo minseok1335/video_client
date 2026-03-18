@@ -1,6 +1,8 @@
 [submodule "360eavp"]
 	path = 360eavp
 	url = https://github.com/minseok1335/360EAVP.git
+	branch = n2sl_version
 [submodule "dash.js"]
 	path = dash.js
 	url = https://github.com/minseok1335/dash.js.git
+	branch = n2sl_version
